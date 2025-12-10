@@ -17,6 +17,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body, html {
+    height: 100%;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -78,8 +82,7 @@ header {
     text-align: center;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
-    margin-bottom: 3rem;
+    height: calc(100vh - 40px);
 }
 
 .hero h1 {
@@ -377,7 +380,7 @@ footer {
     color: white;
     text-align: center;
     padding: 2rem 0;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 
 .social-links {
